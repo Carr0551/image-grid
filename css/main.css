@@ -16,18 +16,74 @@ html {
   box-sizing: inherit;
 }
 
+img:nth-child(2) {
+  display: none;
+}
+
+img:nth-child(5) {
+  display: none;
+}
+
+img {
+  width: 100%;
+  float: left;
+}
+
 @media only screen and (min-width: 25em) {
+
+img {
+  display: inline-block;
+  width: 50%;
+}
+
+img:nth-child(1) {
+  display: inline-block;
+  width: 100%;
+}
+img:nth-child(2) {
+  display: inline-block;
+}
+
+img:nth-child(5) {
+  display: inline-block;
+}
 
 }
 
 @media only screen and (min-width: 38em) {
 
+img:nth-child(2) {
+  display: none;
+}
+
+img:nth-child(5) {
+  display: none;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
 
+img:nth-child(1) {
+  width: 66.666%;
 }
 
-@media only screen and (min-width: 90em) {
-  
+img:nth-child(2) {
+  width: 33.333%;
+  display: inline-block;
+}
+
+img:nth-child(3) {
+  width: 33.333%;
+}
+
+img:nth-child(4) {
+  width: 33.333%;
+}
+
+img:nth-child(5) {
+  width: 33.333%;
+  display: inline-block;
+}
+
 }
